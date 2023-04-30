@@ -1,0 +1,810 @@
+/*--=================================--
+        COMMON CSS START 
+----=================================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul,
+li {
+  list-style: none;
+  display: inline-block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+  line-height: 0.8;
+}
+/*--=================================--
+        COMMON CSS END 
+----=================================*/
+
+/*================================
+        NAVBAR PART START
+================================*/
+.navbar {
+  padding: 15px 0 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0;
+  font-size: 13px;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  transition: all linear 0.4s;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: #00e0d0;
+}
+.navbar-expand-lg .navbar-nav .nav-item {
+  margin-right: 24px;
+}
+.navbar-expand-lg .navbar-nav :last-child {
+  margin-right: 0;
+}
+.navbar-brand {
+  padding: 0;
+  margin: 0;
+}
+/*--=================================--
+        NAVBAR PART END
+----=================================*/
+/*--=================================--
+        BANNER PART START
+----=================================*/
+#banner {
+  background: url(../images/banner/bammer.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 226px;
+  padding-bottom: 205px;
+  position: relative;
+  z-index: 1;
+}
+#bannerr {
+  background: url(../images/banner/pexels-fabian-reitmeier-707915.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 226px;
+  padding-bottom: 205px;
+  position: relative;
+  z-index: 1;
+}
+#bannerr::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(45, 38, 79, 0.85);
+  z-index: -1;
+}
+#banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(45, 38, 79, 0.85);
+  z-index: -1;
+}
+.banner_text h1 {
+  font-size: 32px;
+  font-weight: 900;
+  text-transform: capitalize;
+  font-family: "Playfair Display", serif;
+  color: #fff;
+  position: relative;
+  padding-bottom: 58px;
+}
+.banner_text h1::after {
+  content: "";
+  position: absolute;
+  top: 64%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 1px;
+  background-color: #00e0d0;
+}
+.banner_text p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  line-height: 24px;
+  padding-bottom: 52px;
+}
+.banner_text a {
+  color: #00e0d0;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: "Hammersmith One", sans-serif;
+  padding: 15px;
+  border: 1px solid #00e0d0;
+}
+.banner_slider ul {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.banner_slider ul li {
+  margin: 0 10px;
+}
+ .banner_slider ul li button {
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background-color: rgba(45, 38, 79, 0.85);
+  transition: all linear 0.4s;
+}
+.banner_slider ul li button:hover {
+  background-color: #00e0d0;
+  border-color: #00e0d0;
+}
+.banner_slider ul .slick-active button {
+  background-color: #00e0d0;
+  border-color: #00e0d0;
+}
+/*--=================================--
+        BANNER PART END
+----=================================*/
+/*--=================================--
+        OUR STORY PART START    
+----=================================*/
+#story {
+  padding: 70px 0;
+}
+.story_wra {
+  display: flex;
+  justify-content: space-between;
+}
+.story_right_text h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #413d4b;
+  text-transform: uppercase;
+  padding-bottom: 28px;
+}
+.story_right_text p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #413d4b;
+  line-height: 24px;
+  padding-bottom: 31px;
+}
+.story_right_text a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #00e0d0;
+  font-family: "Hammersmith One", sans-serif;
+  text-transform: uppercase;
+  padding: 15px 16px;
+  border: 1px solid #00e0d0;
+}
+/*--=================================--
+        OUR STORY PART END
+----=================================*/
+/*--=================================--
+        VIDEO PART START
+----=================================*/
+#video {
+  background: url(../images/video.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+#video::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(28, 24, 60, 0.85);
+  z-index: -1;
+}
+.video_icon i {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  color: #fff;
+  cursor: pointer;
+}
+.video_text h3 {
+  font-size: 16px;
+  font-weight: 900;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 202px;
+  padding-top: 335px;
+}
+/*--=================================--
+        VIDEO PART END
+----=================================*/
+/*--=================================--
+        EXPERTISE PART START
+----=================================*/
+.expertise_common_text {
+  position: relative;
+}
+.expertise_common_text h3 {
+  color: #413d4b;
+  font-size: 22px;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 70px;
+  padding-bottom: 15px;
+}
+.expertise_common_text p {
+  color: #2f2d35;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: "Playfair Display", serif;
+}
+.expertise_common_text::after {
+  content: "";
+  position: absolute;
+  bottom: -16px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 2px;
+  background-color: #c6c4c9;
+}
+.fast_row {
+  padding-top: 80px;
+}
+.second_row {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.web_design_icon i {
+  font-size: 50px;
+  color: #01dfd0;
+  padding-bottom: 35px;
+}
+.web_design h3 {
+  color: #413d4b;
+  font-size: 14px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 25px;
+}
+.web_design p {
+  color: #333333;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+}
+/*--=================================--
+        EXPERTISE PART END
+----=================================*/
+/*--=================================--
+        CARD PART START
+----=================================*/
+#card {
+  background: url(../images/team.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+#card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(48, 41, 77, 0.85);
+  z-index: -1;
+}
+.card_common h3 {
+  color: #fff;
+}
+.card_common p {
+  color: #fff;
+}
+.card_img {
+  height: 229px;
+  background-color: #fff;
+}
+.card_text {
+  border: 1px solid #79778d;
+}
+.card_text h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  color: #fff;
+  text-transform: uppercase;
+  padding-top: 23px;
+  padding-bottom: 12px;
+}
+.card_text p {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  color: #fafafa;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+}
+.card_row {
+  padding-top: 63px;
+}
+.card_bottom_text p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 300;
+  padding-top: 70px;
+  padding-bottom: 26px;
+}
+.card_bottom_text a {
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #00e0d0;
+  border: 1px solid #00e0d0;
+  padding: 14px 15px;
+  margin-bottom: 69px;
+}
+/*--=================================--
+        CARD PART END
+----=================================*/
+/*--=================================--
+        WORKS PART START
+----=================================*/
+.works_btn {
+  padding-top: 46px;
+  padding-bottom: 50px;
+}
+.works_btn a {
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 400;
+  color: #413d4b;
+  font-family: "Roboto", sans-serif;
+  border: 1px solid #dddddd;
+  padding: 10px 11px;
+  margin: 0 3px;
+}
+.works_rows1 {
+  display: flex;
+}
+.works_rows2 {
+  display: flex;
+}
+.works_col1 {
+  width: 266.6px;
+  height: 200px;
+  background-color: #b6b6b6;
+}
+.works_col2 {
+  width: 266.6px;
+  height: 200px;
+  background-color: #acacac;
+}
+.works_col3 {
+  width: 266.6px;
+  height: 200px;
+  background-color: #a1a1a1;
+}
+.works_col4 {
+  width: 266.6px;
+  height: 200px;
+  background-color: #8a8a8a;
+}
+.works_col5 {
+  width: 266.6px;
+  height: 200px;
+  background-color: #b6b6b6;
+}
+.works_col6 {
+  width: 266.6px;
+  height: 200px;
+  background-color: #a4a4a4;
+}
+
+.works_col-1 {
+  background-color: #a4a4a4;
+  width: 266.6px;
+  height: 200px;
+}
+.works_col-2 {
+  background-color: #b6b6b6;
+  width: 266.6px;
+  height: 200px;
+}
+.works_col-3 {
+  background-color: #8a8a8a;
+  width: 266.6px;
+  height: 200px;
+}
+.works_col-4 {
+  background-color: #a1a1a1;
+  width: 266.6px;
+  height: 200px;
+}
+.works_col-5 {
+  background-color: #acacac;
+  width: 266.6px;
+  height: 200px;
+}
+.works_col-6 {
+  background-color: #b6b6b6;
+  width: 266.6px;
+  height: 200px;
+}
+.works_bottm_btn {
+  padding: 69px 0;
+}
+.works_bottm_btn a {
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #00e0d0;
+  text-transform: uppercase;
+  border: 1px solid #00e0d0;
+  padding: 12px 15px;
+}
+/*--=================================--
+        WORKS PART END
+----=================================*/
+/*--=================================--
+        TESTIMONIALS PART START
+----=================================*/
+#testimonials {
+  background: url(../images/testimonials.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 118px 0 140px 0;
+  position: relative;
+  z-index: 1;
+}
+#testimonials::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(66, 50, 103, 0.85);
+  z-index: -1;
+}
+.testimonials_text {
+  position: relative;
+}
+.testimonials_text h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #fff;
+  padding-bottom: 10px;
+}
+.testimonials_text p {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 24px;
+  padding-bottom: 40px;
+  padding-top: 50px;
+}
+.testimonials_text h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  color: #fff;
+  text-transform: uppercase;
+}
+.quotation_marks {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.second_page p {
+  color: rgb(204, 54, 199);
+}
+.second_page h3 {
+  color: #fff;
+}
+.slider_text {
+  position: relative;
+}
+.slider_text ul {
+  position: absolute;
+  bottom: -80px;
+  left: 50%;
+  transform: translateX(-58%);
+}
+.slider_text ul li {
+  margin: 0 13px;
+}
+.slider_text ul li button {
+  font-size: 0;
+  height: 21px;
+  width: 21px;
+  border-radius: 50%;
+  border: none;
+  transition: all linear 0.4s;
+  position: relative;
+}
+.slider_text ul li button::after {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  background-color: #00e0d0;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all linear 0.4s;
+}
+.slider_text ul li button:hover::after {
+  opacity: 1;
+}
+.slider_text ul .slick-active button:hover::after {
+  opacity: 1;
+}
+.slider_text ul .slick-active button::after {
+  opacity: 1;
+}
+/*--=================================--
+        TESTIMONIALS PART END
+----=================================*/
+/*--=================================--
+        CLIENT PART START
+----=================================*/
+#client {
+  padding-top: 70px;
+}
+.news h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #413d4b;
+  text-transform: uppercase;
+  padding-bottom: 35px;
+}
+.client h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #413d4b;
+  text-transform: uppercase;
+  padding-bottom: 35px;
+  padding-left: 40px;
+}
+.news_part input {
+  display: block;
+  width: 460px;
+  height: 45px;
+  padding-left: 15px;
+  outline: none;
+  margin-bottom: 20px;
+}
+.news_part .last_input {
+  padding-bottom: 160px;
+  padding-top: 40px;
+}
+.submit_btn a {
+  border: 1px solid #00e0d0;
+  border-color: #00e0d0;
+  color: #00e0d0;
+  text-transform: uppercase;
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 8px 30px;
+}
+.client_part h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #413d4b;
+  text-transform: uppercase;
+  padding-bottom: 35px;
+}
+.client_part img {
+  display: block;
+  margin-left: 40px;
+  margin-bottom: 47px;
+  margin-top: 45px;
+}
+/*--=================================--
+        CLIENT PART END
+----=================================*/
+/*--=================================--
+        FOOTER PART START
+----=================================*/
+#footer {
+  background: url(../images/footer_banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 70px 0;
+  z-index: 1;
+}
+#footer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(71, 55, 109, 0.85);
+  z-index: -1;
+}
+.footer_left p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  line-height: 24px;
+  padding-top: 27px;
+  padding-bottom: 80px;
+}
+.footer_left ul {
+  margin: 0;
+  padding-left: 0;
+}
+.footer_left ul li:last-child {
+  margin-right: 0;
+}
+.footer_left ul li {
+  margin-right: 33px;
+}
+.footer_left ul li a {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.footer_center h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 35px;
+}
+.footer_center p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #fff;
+  padding-bottom: 22px;
+  padding-left: 30px;
+}
+.footer_center h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  padding-left: 30px;
+}
+.footer_center {
+  position: relative;
+}
+.location {
+  position: absolute;
+  top: 50px;
+  left: 0;
+}
+.location i {
+  color: #fff;
+}
+.phone i {
+  color: #fff;
+}
+.phone {
+  position: absolute;
+  top: 137px;
+  left: 0;
+}
+.footer_right h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 35px;
+}
+.btn a {
+  padding: 17px 26px 17px 16px;
+  border: 1px solid #9d97af;
+  color: #fff;
+}
+.footer_right .sent {
+  font-size: 23px;
+  background-color: rgba(160, 154, 179, 0.5);
+  padding: 10px 22px 16px 22px;
+  border: none;
+  margin-left: 8px;
+}
+.btn {
+  padding: 0;
+  padding-bottom: 27px;
+}
+.icon i {
+  color: #fff;
+  font-size: 15px;
+  height: 35px;
+  width: 35px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  line-height: 35px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 9px;
+}
+.icon i:last-child {
+  margin-right: 0;
+}
+.icon {
+  display: flex;
+  padding-bottom: 70px;
+}
+.footer_right p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  padding-left: 63px;
+}
+/*--=================================--
+        FOOTER PART END
+----=================================*/
+/* font-family: 'Hammersmith One', sans-serif;
+font-family: 'Playfair Display', serif;
+c */
